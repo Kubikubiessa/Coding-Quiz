@@ -1,0 +1,122 @@
+main {
+  display: block;
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 50ch;
+}
+h1 {
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  height: 24px;
+  width: 80px;
+  order: 2;
+  background-color: blueviolet;
+  color: beige;
+  border-radius: 8px;
+}
+button.start-button {
+  box-sizing: border-box;
+  height: 25px;
+  width: 80px;
+  order: 2;
+  background-color: blueviolet;
+  color: beige;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: rgb(173, 57, 57);
+  cursor: pointer;
+}
+button.submit-button {
+  box-sizing: border-box;
+  height: 25px;
+  width: 80px;
+  order: 2;
+  background-color: blueviolet;
+  color: beige;
+  border-radius: 8px;
+}
+#back-button {
+  box-sizing: border-box;
+  height: 25px;
+  width: 80px;
+  order: 2;
+  background-color: blueviolet;
+  color: beige;
+  border-radius: 8px;
+}
+#back-button:hover {
+  cursor: pointer;
+  background-color: rgb(173, 57, 57);
+}
+#clear-button {
+  box-sizing: border-box;
+  height: 25px;
+  width: 80px;
+  order: 2;
+  background-color: blueviolet;
+  color: beige;
+  border-radius: 8px;
+}
+#clear-button:hover {
+  cursor: pointer;
+  background-color: rgb(173, 57, 57);
+}
+#container {
+  visibility: hidden;
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 1.75rem;
+  padding: 0;
+}
+ol {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 3rem auto;
+  font-size: 1.75rem;
+  padding: 0;
+}
+
+li {
+  margin: 1.2rem 0;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+li:hover {
+  cursor: pointer;
+}
+form {
+  visibility: hidden;
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 1.75rem;
+  padding: 0;
+}
+#all-done {
+  text-align: center;
+}
+#final-score {
+  text-align: center;
+}
+#scores-div {
+  text-align: center;
+  box-sizing: border-box;
+  visibility: hidden;
+  text-align: center;
+
+  font-size: 1.75rem;
+  padding: 0;
+}
+#all-scores {
+  text-align: center;
+  box-sizing: border-box;
+
+  text-align: center;
+
+  font-size: 1.75rem;
+  padding: 0;
+}

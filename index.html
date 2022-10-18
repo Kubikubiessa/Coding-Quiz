@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+<body>
+    <header class="time">
+        <p></p>
+        <p></p>
+    </header>
+    <main>
+    <h1>Coding Quiz!</h1>
+   
+    <h3 class="instructions" style="text-align:center;">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by ten seconds.</h3>
+    <button class="start-button" style="text-align:center;">Start Quiz</button>
+    
+    <div id="quiz">
+        <div id="container" style="text-align:center;">
+            <p class="question-title" p>
+            <ol class="questions-list"style="text-align:center;">
+                <li id="possible-answer1" li>
+                <li id="possible-answer2" li>
+                <li id="possible-answer3" li>
+                <li id="possible-answer4" li>
+            </ol>
+        </div>
+        <div id="answer-container"></div>
+        
+    </div>
+<form> 
+    <h2 id="all-done"> All done!</h2>
+    
+    <h3 id="final-score"></h3>
+    <input type="text" name="name" id="initials-input" placeholder="enter initials" />
+    <button class="submit-button">Submit</button>
+</form>
+<div id="scores-div">
+    <span><b>High scores</b></span>
+    <ol id="all-scores">   
+    </ol>
+    <button id="back-button">Go back</button>
+    <button id="clear-button">Clear</button>
+</div>
+
+
+
+       
+    
+    </main>
+
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
